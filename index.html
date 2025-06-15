@@ -3,50 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Goleadores del Fútbol</title>
+    <title>Top Goleadores Históricos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Máximos Goleadores del Fútbol</h1>
-    </header>
-    
-    <main>
-        <section class="jugadores-container">
-            <article class="jugador">
-                <h2 class="nombre">Cristiano Ronaldo</h2>
-                <p class="estadisticas">Total goles: <span class="goles">893</span></p>
-                <span class="pais">Portugal</span>
-            </article>
+    <div class="contenedor">
+        <header class="encabezado">
+            <h1>Rey de Goles</h1>
+        </header>
+        
+        <div class="contenido-principal">
+            <aside class="barra-lateral">
+                <h2>Filtros</h2>
+                <ul class="menu-filtros">
+                    <li><a href="#">Por Liga</a></li>
+                    <li><a href="#">Por País</a></li>
+                    <li><a href="#">Por Década</a></li>
+                </ul>
+                
+                <h2>Estadísticas</h2>
+                <ul class="menu-estadisticas">
+                    <li><a href="#">Promedio de Gol</a></li>
+                    <li><a href="#">Partidos Jugados</a></li>
+                    <li><a href="#">Goles por Torneo</a></li>
+                </ul>
+            </aside>
             
-            <article class="jugador">
-                <h2 class="nombre">Lionel Messi</h2>
-                <p class="estadisticas">Total goles: <span class="goles">821</span></p>
-                <span class="pais">Argentina</span>
-            </article>
-            
-            <article class="jugador">
-                <h2 class="nombre">Pelé</h2>
-                <p class="estadisticas">Total goles: <span class="goles">767</span></p>
-                <span class="pais">Brasil</span>
-            </article>
-            
-            <article class="jugador">
-                <h2 class="nombre">Romário</h2>
-                <p class="estadisticas">Total goles: <span class="goles">755</span></p>
-                <span class="pais">Brasil</span>
-            </article>
-            
-            <article class="jugador">
-                <h2 class="nombre">Ferenc Puskás</h2>
-                <p class="estadisticas">Total goles: <span class="goles">729</span></p>
-                <span class="pais">Hungría</span>
-            </article>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Actualizado: Junio 2023 | Estadísticas oficiales</p>
-    </footer>
+            <main class="area-contenido">
+                <div class="tarjeta-jugador">
+                    <div class="imagen-jugador">
+                        <div class="foto-placeholder">CR7</div>
+                    </div>
+                    <div class="info-jugador">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p><strong>Goles:</strong> 893</p>
+                        <p><strong>País:</strong> Portugal</p>
+                        <p><strong>Equipos:</strong> Sporting, Man Utd, Real Madrid, Juventus, Al Nassr</p>
+                        <button class="boton-detalle">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="tarjeta-jugador">
+                    <div class="imagen-jugador">
+                        <div class="foto-placeholder">M10</div>
+                    </div>
+                    <div class="info-jugador">
+                        <h3>Lionel Messi</h3>
+                        <p><strong>Goles:</strong> 821</p>
+                        <p><strong>País:</strong> Argentina</p>
+                        <p><strong>Equipos:</strong> Barcelona, PSG, Inter Miami</p>
+                        <button class="boton-detalle">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="tarjeta-jugador">
+                    <div class="imagen-jugador">
+                        <div class="foto-placeholder">PELÉ</div>
+                    </div>
+                    <div class="info-jugador">
+                        <h3>Pelé</h3>
+                        <p><strong>Goles:</strong> 767</p>
+                        <p><strong>País:</strong> Brasil</p>
+                        <p><strong>Equipos:</strong> Santos, NY Cosmos</p>
+                        <button class="boton-detalle">Ver Detalles</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <footer class="pie-pagina">
+            <p>© 2023 Estadísticas de Fútbol - Todos los derechos reservados</p>
+        </footer>
+    </div>
 </body>
 </html>
